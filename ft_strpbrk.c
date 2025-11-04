@@ -5,6 +5,7 @@
 The function should be prototyped as follows:
 
 char	*ft_strpbrk(const char *s1, const char *s2);*/
+#include <stddef.h>
 char	*ft_strpbrk(const char *s1, const char *s2)
 {
 	int i = 0;
