@@ -31,7 +31,7 @@ int is_found(char c, char *s)
 }
 int main(int ac, char *av[])
 {
-    if(ac == 3)
+    if(ac != 3)
     {
         write(1, "\n",1);
         return (0);
